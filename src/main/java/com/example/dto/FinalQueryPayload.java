@@ -1,5 +1,3 @@
 package com.example.dto;
 
-public class FinalQueryPayload {
-    
-}
+public record FinalQueryPayload(String finalQuery) {}

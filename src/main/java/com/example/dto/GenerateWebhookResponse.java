@@ -1,5 +1,9 @@
 package com.example.dto;
 
-public class GenerateWebhookResponse {
-    
-}
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record GenerateWebhookResponse(
+        String webhook,
+        String accessToken
+) {}

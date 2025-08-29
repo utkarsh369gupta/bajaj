@@ -1,5 +1,7 @@
 package com.example.dto;
 
-public class GenerateWebhookRequest {
-    
-}
+public record GenerateWebhookRequest(
+        String name,
+        String regNo,
+        String email
+) {}
