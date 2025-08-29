@@ -1,0 +1,6 @@
+com\example\dto\GenerateWebhookResponse.class
+com\example\Main.class
+com\example\service\QualifierService.class
+com\example\dto\GenerateWebhookRequest.class
+com\example\StartupRunner.class
+com\example\dto\FinalQueryPayload.class
